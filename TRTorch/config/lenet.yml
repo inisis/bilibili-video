@@ -1,0 +1,17 @@
+--- 
+backend: 
+  - all
+input: 
+  - 1000
+  - 1
+  - 28
+  - 28
+iterations: 5000
+model: 
+  filename: models/lenet_traced.jit.pt
+  name: lenet
+runtime: 
+  device: 0
+  precision: 
+    - fp32
+    - fp16
